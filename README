@@ -1,0 +1,17 @@
+This is a tool which can help you out about install others software
+
+The Way to Use devpkg
+
+devpkg -I url [devpkg will fetch the software on that url
+               and install the software]
+devpkg -B url [devpkg just build the software in /tmp/pkg-build]
+
+devpkg -S [Initialize the Database of installed software]
+
+devpkg -SF url [devpkg just do the same thing with -S and fetch the
+       	       	software on that url to /tmp/pkg-build]
+devpkg -C [devpkg will clean up the directory /tmp and /tmp/pkg-build]
+
+Hope your guys enjoy it ,if you have any suggestions or ideas,contact me
+
+Email:414578625@qq.com
