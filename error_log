@@ -1,4 +1,0 @@
-[root@archlinux devpkg]# ./devpkg -B http://valgrind.org/downloads/valgrind-3.9.0.tar.bz2
-make: *** No targets specified and no makefile found.  Stop.
-[ERROR] (shell.c:Shell_run:71: errno:No such file or directory) make exited badly.
-[ERROR] (commands.c:Command_build:148: errno:None) Failed to build.

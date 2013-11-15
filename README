@@ -1,16 +1,26 @@
 This is a tool which can help you out about install others software
 
+NOTICE:This software depends on a lib named APR
+
+Use the devpkg normally should be followed by:
+
+    1.run the script by type : bash command_apr_sh.
+
+    2.type the command : "make all".
+
+    3.you can use it in many ways.
+
 The Way to Use devpkg
 
-devpkg -I url [devpkg will fetch the software on that url
+./devpkg -I url [devpkg will fetch the software on that url
                and install the software]
-devpkg -B url [devpkg just build the software in /tmp/pkg-build]
+./devpkg -B url [devpkg just build the software in /tmp/pkg-build]
 
-devpkg -S [Initialize the Database of installed software]
+./devpkg -S [Initialize the Database of installed software]
 
-devpkg -SF url [devpkg just do the same thing with -S and fetch the
+./devpkg -SF url [devpkg just do the same thing with -S and fetch the
        	       	software on that url to /tmp/pkg-build]
-devpkg -C [devpkg will clean up the directory /tmp and /tmp/pkg-build]
+./devpkg -C [devpkg will clean up the directory /tmp and /tmp/pkg-build]
 
 Hope your guys enjoy it ,if you have any suggestions or ideas,contact me
 
